@@ -1,0 +1,37 @@
+/* This is a CSS comment. Put your CSS styling below this line */
+body{
+     background-color: #e5e1e1;
+     margin: 0;
+     padding: 0;
+     background: url('https://nnroad.com/wp-content/uploads/2023/08/motivational-composition-goal-achievement-min-scaled.jpg') no-repeat center center fixed;
+     background-size: cover;
+         background-color: rgba(255, 255, 255, 0.5);
+         font-family:Arial, Helvetica, sans-serif;
+}
+h1{text-align: center;
+font-size: 40px;}
+
+header{background-color: #f2e8e8;
+    text-align: right;
+       padding: 20px;
+
+}
+
+header a{text-decoration: none;}
+
+header button{background-color: #b79f9f;
+             border-radius: 5px;}
+button{display: center;
+      }
+
+.logo{color: #a443d0;
+      text-align: left;
+     font-size: 24px;
+     font-weight: bold;
+     }
+    
+
+footer{text-align: center;}
+
+
+

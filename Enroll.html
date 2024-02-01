@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the Page</title>
+  <style>
+    body{text-align: center;
+        background-color: gray;
+    background: url('https://www.shutterstock.com/image-photo/blur-group-asian-university-students-260nw-387602200.jpg') no-repeat center center fixed;
+    background-size: cover;
+         background-color: rgba(255, 255, 255, 0.5);}
+         
+    button{background-color: #4CAF50;
+          border-radius: 5px;}
+
+           button a{text-decoration: none;}
+         
+    .centered-container {
+        display: center;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 20px;
+    }
+
+    /* Form styles */
+    .Enroll-form {
+        width: 60%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form field styles */
+    .form-group {
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .g{
+      width: 75%;
+    }
+
+    input,
+select {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+    p{font-size: 20px;}
+  
+  </style>
+</head>
+<body>
+  <div class="background-image"></div>
+<h1>Upskill, Stand out</h1>
+  <p>Learning every day broadens your horizons, unlocking new opportunities and perspectives. It fuels personal growth, fostering adaptability and resilience in an ever-changing world. Embracing a daily learning habit not only enriches your mind but empowers you to navigate life's challenges with confidence and curiosity.</p><br><br><br>
+  <div class="centered-container">
+  <form class="enroll-form">
+      <h2>Enroll Now!</h2>
+
+      <div class="form-group" >
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName" class="g" required>
+      </div> 
+
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" class="g"  required>
+      </div>
+          
+      
+      <div class="form-group"></div>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" class="g" required>
+        </div>
+      
+          <div class="form-group">
+          <label for="country">Country of Origin</label>
+          <input type="text" id="country" name="country"  class="g"required>
+        </div>   
+      
+          <div class="form-group">
+          <label for="budget">Safari Budget</label>
+          <input type="text" id="budget" name="budget" class="g" required>
+          <label for="Course">Course</label>
+          <select id="Course" name="Course" required>
+              <option value="Course">Select a Course</option>
+              <option value="Course1">Agile Project Management</option>
+              <option value="Course2">Cyber Securit</option>
+              <option value="Course3">Full Stack Development</option>
+              <option value="Course4">UserExperience</option>
+              <option value="Course">Data Science</option>
+            <option value="Course">Blockchain</option>
+              <option value="Course">Artificial Intelligence</option>
+            <option value="Course">MachineLearning</option>
+            <option value="Course">Cloud Computing</option>
+            <option value="Course">Data Analytics</option>
+          </select>
+      </div>
+
+      <button type="submit">Enroll</button>
+  </form>
+
+  <button><a href="Topskill.html">Go Back</a></button>
+
+</body>
+  
+</html>
